@@ -32,9 +32,33 @@
             android:textSize="28sp"
             android:textStyle="bold"/>
 
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/SearchInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="10dp"
+            app:startIconDrawable="@drawable/search"
+            app:errorEnabled="false"
+            app:hintEnabled="false"
+
+            android:id="@+id/edSearchL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionSearch"
+                android:background="@color/white"
+                android:hint="Enter Search Title"
+                android:gravity="center"
+                android:id="@+id/edSearch"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/taskRV"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
