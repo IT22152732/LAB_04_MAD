@@ -19,7 +19,7 @@
             android:layout_height="100dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/loading"/>
+            app:lottie_rawRes="@raw/loadingnew"/>
 
         <TextView
             android:layout_width="wrap_content"

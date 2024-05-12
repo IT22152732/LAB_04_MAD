@@ -18,8 +18,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Welcome Back"
-            android:textSize="24sp"
+            android:text="Welcome to ToDoZen 🚀"
+            android:textSize="35sp"
             android:textStyle="bold"/>
 
 
@@ -28,8 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Today's Task"
-            android:textSize="28sp"
+            android:text="Hi...👋 here your tasks overview "
+            android:textSize="15sp"
             android:textStyle="bold"/>
 
 
